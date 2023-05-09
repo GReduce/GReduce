@@ -2,15 +2,15 @@
 
 This repository contains evaluations of **Generator-based Test Input Reduction**.
 
-The evaluations are consist of 40 subjects from three application domains: Graphs, DL Models, and JavaScript Programs, including 10 subjects on Graphs, 20 subjects on DL Models, and 10 subjects on JavaScript Programs. 37 of 40 are unexpected exceptions or crashes, 3 of 40 are wrong-result cases.
+The evaluations consist of 40 subjects from three application domains: Graphs, DL Models, and JavaScript Programs, including 10 subjects on Graphs, 20 subjects on DL Models, and 10 subjects on JavaScript Programs. 37 of 40 are unexpected exceptions or crashes, and 3 of 40 are wrong-result cases.
 
-The details of subjects are listed in `Subjects.xlsx`.
+The details of the subjects are listed in `Subjects.xlsx`.
 
 # Results
 
 ## Graphs
 
-Original: Check  `graph/GReduce/original/*`
+Original Graphs: Check  `graph/GReduce/original/*`
 
 Results of GReduce (Tree-based + alter) : Check  `graph/GReduce/results/*`
 
@@ -20,7 +20,7 @@ Results of Perses: Check `graph/perses/reduced_graphs.txt`
 
 ## DL Models
 
-Original: Check `dl/GReduce/models/bug*.onnx`
+Original DL Models: Check `dl/GReduce/models/bug*.onnx`
 
 Results of GReduce (Tree-based + alter) : Check `dl/GReduce/models/bug*.reduceTa.onnx`
 
@@ -30,7 +30,7 @@ Results of Perses: Check `dl/perses/models/bug*.perses.reduce.onnx`
 
 ## JS Programs
 
-Original: Check `js/perses/njs/n*.js`
+Original JS Programs: Check `js/perses/njs/n*.js`
 
 Results of GReduce (Tree-based + alter) :  Check `js/GReduce/results/ok_n*.js`
 
