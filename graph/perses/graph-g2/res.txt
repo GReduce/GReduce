@@ -1,0 +1,327 @@
+[11:53:59] [信息     ] Tree Building: Step 1: Antlr parsing. 
+[11:54:00] [信息     ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[11:54:00] [信息     ] Tree Building: Step 3: Simplifying spar-tree 
+[11:54:00] [信息     ] Tree Building: Finished in TimeSpan{startMillis=1683172439857, endMillis=1683172440428, formatted=0 seconds} 
+[11:54:00] [信息     ] The reduction process started at 11:54:00 2023/05/04 
+[11:54:00] [信息     ] Cache setting: query-caching=disabled, edit-caching=enabled, query-cache=compact_query_cache 
+[11:54:01] [信息     ] Reduction algorithm is perses_node_priority_with_dfs_delta 
+[11:54:01] [信息     ] The number of lexemes in the token factory is is 371 
+[11:54:01] [信息     ] Reduction Started at 11:54:01 2023/05/04 
+[11:54:01] [信息     ] perses_node_priority_with_dfs_delta started at 11:54:01 2023/05/04. #tokens=2871 
+[11:54:01] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New fixpoint iteration started. #Tokens=2871 
+[11:54:01] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2871) 
+[11:54:01] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2871): queue=0, delete 0 tokens, ratio=2871/2871=100.00% 
+[11:54:01] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2866) 
+[11:54:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2866): queue=1, delete 0 tokens, ratio=2871/2871=100.00% 
+[11:54:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2856) 
+[11:54:31] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2856): queue=6, delete 0 tokens, ratio=2871/2871=100.00% 
+[11:54:31] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2853) 
+[11:54:33] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 26 tokens, ratio=2845/2871=99.09% 
+[11:54:34] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 52 tokens, ratio=2793/2871=97.28% 
+[11:54:34] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 104 tokens, ratio=2689/2871=93.66% 
+[11:54:35] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 208 tokens, ratio=2481/2871=86.42% 
+[11:54:36] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 403 tokens, ratio=2078/2871=72.38% 
+[11:54:37] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 819 tokens, ratio=1259/2871=43.85% 
+[11:54:41] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 91 tokens, ratio=1168/2871=40.68% 
+[11:54:44] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 26 tokens, ratio=1142/2871=39.78% 
+[11:54:47] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 13 tokens, ratio=1129/2871=39.32% 
+[11:54:47] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 52 tokens, ratio=1077/2871=37.51% 
+[11:54:52] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 13 tokens, ratio=1064/2871=37.06% 
+[11:54:53] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 26 tokens, ratio=1038/2871=36.15% 
+[11:54:54] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 52 tokens, ratio=986/2871=34.34% 
+[11:54:55] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 84 tokens, ratio=902/2871=31.42% 
+[11:54:56] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 288 tokens, ratio=614/2871=21.39% 
+[11:54:57] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 279 tokens, ratio=335/2871=11.67% 
+[11:54:58] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 36 tokens, ratio=299/2871=10.41% 
+[11:54:59] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 18 tokens, ratio=281/2871=9.79% 
+[11:55:00] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 72 tokens, ratio=209/2871=7.28% 
+[11:55:01] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 18 tokens, ratio=191/2871=6.65% 
+[11:55:02] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 9 tokens, ratio=182/2871=6.34% 
+[11:55:03] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 18 tokens, ratio=164/2871=5.71% 
+[11:55:04] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 72 tokens, ratio=92/2871=3.20% 
+[11:55:04] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2853): queue=9, delete 2779 tokens, ratio=92/2871=3.20% 
+[11:55:04] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=13) 
+[11:55:05] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=13): queue=16, delete 0 tokens, ratio=92/2871=3.20% 
+[11:55:05] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=13) 
+[11:55:05] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=13): queue=17, delete 0 tokens, ratio=92/2871=3.20% 
+[11:55:05] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=12) 
+[11:55:07] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 2 tokens, ratio=90/2871=3.13% 
+[11:55:07] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=12): queue=18, delete 2 tokens, ratio=90/2871=3.13% 
+[11:55:07] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=12) 
+[11:55:09] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 2 tokens, ratio=88/2871=3.07% 
+[11:55:09] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=12): queue=18, delete 2 tokens, ratio=88/2871=3.07% 
+[11:55:09] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=10) 
+[11:55:11] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=10): queue=18, delete 0 tokens, ratio=88/2871=3.07% 
+[11:55:11] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=10) 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=10): queue=19, delete 0 tokens, ratio=88/2871=3.07% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 9 tokens, ratio=79/2871=2.75% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=20, delete 9 tokens, ratio=79/2871=2.75% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=19, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=20, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=21, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:13] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:14] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=22, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:14] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:15] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=23, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:15] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9) 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=9): queue=24, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8) 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8): queue=25, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8) 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8): queue=26, delete 0 tokens, ratio=79/2871=2.75% 
+[11:55:17] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 7 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8): queue=27, delete 7 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=8): queue=27, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=28, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=28, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=28, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=29, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=29, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=29, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=30, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=30, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=30, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:18] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:19] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=31, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:19] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7) 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=7): queue=33, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6) 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6): queue=35, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6) 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6): queue=36, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:20] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=6): queue=37, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=38, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=39, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=40, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=41, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=42, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=42, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=43, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=43, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=5): queue=44, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4) 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4): queue=46, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:21] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4): queue=49, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4): queue=50, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=51, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=51, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=52, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=54, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=56, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3) 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=3): queue=58, delete 0 tokens, ratio=72/2871=2.51% 
+[11:55:22] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 2 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=59, delete 2 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=58, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=59, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=60, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=61, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=62, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=63, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=64, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=65, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=66, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=67, delete 0 tokens, ratio=70/2871=2.44% 
+[11:55:23] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 2 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=2): queue=68, delete 2 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=67, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=66, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=65, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=64, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=63, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=62, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=61, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=60, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=59, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=58, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=57, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=56, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=55, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=54, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=54, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=53, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=52, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=51, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=50, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=49, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=48, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=47, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=46, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=45, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=45, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=44, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=43, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=42, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=41, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=40, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=39, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=38, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=37, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=36, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=35, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=34, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=34, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=33, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=32, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=31, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=30, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=29, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=28, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=27, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=26, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=25, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=24, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=23, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=22, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=21, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=20, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=19, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=18, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=17, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=16, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=15, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=14, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=13, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=12, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=11, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=10, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=9, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=8, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] perses_node_priority_with_dfs_delta ended at 11:55:24 2023/05/04. #old=2871, #new=68 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=8, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=7, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=6, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=5, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=4, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=3, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=2, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=1, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1) 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=1): queue=0, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Rebuilding spar-tree. 
+[11:55:24] [信息     ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Fixpoint iteration finished, delete 2803 tokens, ratio=68/2871=2.37% 
+[11:55:24] [警告     ] Fail to re-parse the best program. 
+[11:55:24] [信息     ] perses_node_priority_with_dfs_delta started at 11:55:24 2023/05/04. #tokens=68 
+[11:55:24] [信息     ] Fixpoint[2]:Reducer[perses_node_priority_with_dfs_delta]: New fixpoint iteration started. #Tokens=68 
+[11:55:24] [信息     ] Fixpoint[2]:Reducer[perses_node_priority_with_dfs_delta]: Reduction is skipped. Cause:  The spar-tree is not parsable. 
+[11:55:24] [信息     ] perses_node_priority_with_dfs_delta ended at 11:55:24 2023/05/04. #old=68, #new=68 
+[11:55:24] [信息     ] Fixpoint[2]:Reducer[perses_node_priority_with_dfs_delta]: Fixpoint iteration finished, delete 0 tokens, ratio=68/2871=2.37% 
+[11:55:24] [信息     ] Reduction ended at 11:55:24 2023/05/04 
+[11:55:24] [信息     ] Elapsed time is 83 seconds (1 minute 23 seconds) 
+[11:55:24] [信息     ] Removed %s tokens. reduction ratio is 68/2871=2.37% 
+[11:55:24] [信息     ] Test script execution count: 921 
