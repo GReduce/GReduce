@@ -1,0 +1,1 @@
+{"nodes": [12, 13, 26], "edges": [{"from": 12, "to": 13, "weight": 5, "has_weight": true}, {"from": 12, "to": 26, "weight": 5, "has_weight": true}]}

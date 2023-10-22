@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  [bt] (8) 9   libtvm.dylib                        0x000000011b3f20b6 TVMFuncCall + 70
+  [bt] (7) 8   libtvm.dylib                        0x000000011a7f82a7 std::__1::__function::__func<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::transform::Pass, tvm::IRModule)>::AssignTypedLambda<tvm::transform::$_6>(tvm::transform::$_6)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*), std::__1::allocator<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::transform::Pass, tvm::IRModule)>::AssignTypedLambda<tvm::transform::$_6>(tvm::transform::$_6)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*)>, void (tvm::runtime::TVMArgs, tvm::runtime::TVMRetValue*)>::operator()(tvm::runtime::TVMArgs&&, tvm::runtime::TVMRetValue*&&) + 615
+  [bt] (6) 7   libtvm.dylib                        0x000000011a6e9157 tvm::transform::Pass::operator()(tvm::IRModule) const + 183
+  [bt] (5) 6   libtvm.dylib                        0x000000011a6f5b7c tvm::transform::PassNode::operator()(tvm::IRModule) const + 60
+  [bt] (4) 5   libtvm.dylib                        0x000000011a7eff25 tvm::transform::ModulePassNode::operator()(tvm::IRModule, tvm::transform::PassContext const&) const + 789
+  [bt] (3) 4   libtvm.dylib                        0x000000011b230381 std::__1::__function::__func<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::IRModule, tvm::transform::PassContext)>::AssignTypedLambda<tvm::relay::transform::InferType()::$_1>(tvm::relay::transform::InferType()::$_1)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*), std::__1::allocator<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::IRModule, tvm::transform::PassContext)>::AssignTypedLambda<tvm::relay::transform::InferType()::$_1>(tvm::relay::transform::InferType()::$_1)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*)>, void (tvm::runtime::TVMArgs, tvm::runtime::TVMRetValue*)>::operator()(tvm::runtime::TVMArgs&&, tvm::runtime::TVMRetValue*&&) + 1905
+  [bt] (2) 3   libtvm.dylib                        0x000000011b22279c tvm::relay::TypeInferencer::Infer(tvm::GlobalVar, tvm::relay::Function) + 140
+  [bt] (1) 2   libtvm.dylib                        0x000000011b0b92fa tvm::relay::TypeSolver::Solve() + 1530
+  [bt] (0) 1   libtvm.dylib                        0x000000011a582c6f dmlc::LogMessageFatal::~LogMessageFatal() + 111
+  [bt] (8) 9   libtvm.dylib                        0x000000011a6f5b7c tvm::transform::PassNode::operator()(tvm::IRModule) const + 60
+  [bt] (7) 8   libtvm.dylib                        0x000000011a7eff25 tvm::transform::ModulePassNode::operator()(tvm::IRModule, tvm::transform::PassContext const&) const + 789
+  [bt] (6) 7   libtvm.dylib                        0x000000011b230381 std::__1::__function::__func<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::IRModule, tvm::transform::PassContext)>::AssignTypedLambda<tvm::relay::transform::InferType()::$_1>(tvm::relay::transform::InferType()::$_1)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*), std::__1::allocator<void tvm::runtime::TypedPackedFunc<tvm::IRModule (tvm::IRModule, tvm::transform::PassContext)>::AssignTypedLambda<tvm::relay::transform::InferType()::$_1>(tvm::relay::transform::InferType()::$_1)::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*)>, void (tvm::runtime::TVMArgs, tvm::runtime::TVMRetValue*)>::operator()(tvm::runtime::TVMArgs&&, tvm::runtime::TVMRetValue*&&) + 1905
+  [bt] (5) 6   libtvm.dylib                        0x000000011b22279c tvm::relay::TypeInferencer::Infer(tvm::GlobalVar, tvm::relay::Function) + 140
+  [bt] (4) 5   libtvm.dylib                        0x000000011b0b913e tvm::relay::TypeSolver::Solve() + 1086
+  [bt] (3) 4   libtvm.dylib                        0x000000011b0b960c tvm::TypedEnvFunc<bool (tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&)>::operator()(tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&) const + 332
+  [bt] (2) 3   libtvm.dylib                        0x000000011a83bd13 void tvm::runtime::TypedPackedFunc<bool (tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&)>::AssignTypedLambda<bool (*)(tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&)>(bool (*)(tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&))::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*)::operator()(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*) const + 691
+  [bt] (1) 2   libtvm.dylib                        0x000000011af851f9 tvm::relay::ReshapeRel(tvm::runtime::Array<tvm::Type, void> const&, int, tvm::Attrs const&, tvm::TypeReporter const&) + 1913
+  [bt] (0) 1   libtvm.dylib                        0x000000011a582c6f dmlc::LogMessageFatal::~LogMessageFatal() + 111
+  File "/Users//Documents/tvm/src/relay/analysis/type_solver.cc", line 622
+TVMError: 
+---------------------------------------------------------------
+An internal invariant was violated during the execution of TVM.
+Please read TVM's error reporting guidelines.
+More details can be found here: https://discuss.tvm.ai/t/error-reporting/7793.
+---------------------------------------------------------------
+  Check failed: false == false: [17:31:31] /Users//Documents/tvm/src/relay/op/tensor/transform.cc:632: 
+---------------------------------------------------------------
+An internal invariant was violated during the execution of TVM.
+Please read TVM's error reporting guidelines.
+More details can be found here: https://discuss.tvm.ai/t/error-reporting/7793.
+---------------------------------------------------------------
+
+  Check failed: oshape_sum == data_shape_sum (20 vs. 160) : Input tensor shape and reshaped shape are not compatible
+

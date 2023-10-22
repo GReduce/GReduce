@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  [bt] (6) 7   ???                                 0x00007ffee5f535a0 0x0 + 140732756473248
+  [bt] (5) 6   libffi.7.dylib                      0x000000011244eead ffi_call_unix64 + 85
+  [bt] (4) 5   libtvm.dylib                        0x000000011754a0b6 TVMFuncCall + 70
+  [bt] (3) 4   libtvm.dylib                        0x00000001171266d7 void tvm::runtime::TypedPackedFunc<tvm::RelayExpr (tvm::RelayExpr, tvm::runtime::Array<tvm::Integer, void>)>::AssignTypedLambda<tvm::RelayExpr (*)(tvm::RelayExpr, tvm::runtime::Array<tvm::Integer, void>)>(tvm::RelayExpr (*)(tvm::RelayExpr, tvm::runtime::Array<tvm::Integer, void>))::'lambda'(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*)::operator()(tvm::runtime::TVMArgs const&, tvm::runtime::TVMRetValue*) const + 487
+  [bt] (2) 3   libtvm.dylib                        0x000000011686236e tvm::runtime::TVMMovableArgValue_::operator tvm::runtime::Array<tvm::Integer, void><tvm::runtime::Array<tvm::Integer, void>, void>() const + 158
+  [bt] (1) 2   libtvm.dylib                        0x00000001168628c6 tvm::runtime::Array<tvm::Integer, void> tvm::runtime::TVMPODValue_::AsObjectRef<tvm::runtime::Array<tvm::Integer, void> >() const + 1222
+  [bt] (0) 1   libtvm.dylib                        0x00000001166dac6f dmlc::LogMessageFatal::~LogMessageFatal() + 111
+  File "/Users//Documents/tvm/include/tvm/runtime/packed_func.h", line 1405
+TVMError: 
+---------------------------------------------------------------
+An internal invariant was violated during the execution of TVM.
+Please read TVM's error reporting guidelines.
+More details can be found here: https://discuss.tvm.ai/t/error-reporting/7793.
+---------------------------------------------------------------
+  Check failed: ObjectTypeChecker<TObjectRef>::Check(ptr) == false: Expect Array[IntImm] but get Array

@@ -1,0 +1,27 @@
+{
+  "name": "jsdelta",
+  "version": "1.0.0",
+  "author": "Max Schaefer <xiemaisi@gmail.com>",
+  "description": "A delta debugger for JavaScript",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "escodegen": "=1.14.1",
+    "espree": "^9.5.1",
+    "estraverse": "=4.3.0",
+    "fs-extra": "=8.1.0",
+    "google-closure-compiler": "=20200204.0.0",
+    "logging": "^3.3.0",
+    "tmp": "0.0.29"
+  },
+  "license": "EPL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wala/jsdelta.git"
+  },
+  "bin": {
+    "jsdelta": "./delta.js"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  }
+}
